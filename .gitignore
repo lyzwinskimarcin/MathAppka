@@ -1,0 +1,29 @@
+# Unity folders to ignore
+Library/
+Logs/
+Temp/
+obj/
+Build/
+Builds/
+UserSettings/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Visual Studio / Rider
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.pidb
+*.user
+*.booproj
+*.svd
+*.pdb
+
+# Other
+*.bak
+*.cache
+*.prefs
