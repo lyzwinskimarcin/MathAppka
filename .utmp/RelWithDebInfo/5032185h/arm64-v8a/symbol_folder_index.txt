@@ -1,0 +1,1 @@
+C:\Marcin Lyzwinski\Studia\Unity Projects\MathAppka\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\5032185h\obj\arm64-v8a

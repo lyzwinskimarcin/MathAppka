@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
@@ -39,9 +40,25 @@ public class GameLogic : MonoBehaviour
     void GenerateProblem()
     {
         // Generate random numbers form a given range
-        n1 = Random.Range(1, 11);
-        n2 = Random.Range(1, 11);
+        n1 = Random.Range(2, 18);
+
+        if (n1 > 11)
+        {
+            n2 = n1;
+        }
+        else
+        {
+            n2 = Random.Range(2, 11);
+        }
+        
         answer = n1 * n2;
+
+        if (n1 > 11)
+        {
+            whereQ = "Third";
+            problem.text = $"{n1} x {n2} = ?";
+            return;
+        }
         
         // Randomize where to put question mark
         int randomIndex = UnityEngine.Random.Range(0, 3);
