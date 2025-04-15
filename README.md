@@ -1,2 +1,4 @@
 # MathAppka
-Simple app for multiplication practice for private use
+Simple app for multiplication and exponentiation practice for primary school. Useful for tutors. After 40 corrrectly solved problems there is a screen with date and time. The student can save the screenshot and send it to the tutor. To install, download .apk file from BuiltApp folder on your mobile. It should work for rather new Android versions. Not supported for IOS. May not support various Android versions. Made for private use only.
+
+Prosta aplikacja do ćwiczenia mnożenia oraz potęgowania na poziomie szkoły podstawowej. Przydatne dla korepetytorów. Po 40 dobrze rozwiązanych przykładach pojawia się ekran z aktualną godziną i datą. Uczeń może przesłać screenshot ekranu do korepetytora. Aby zainstalować aplikację, pobierz plik .apk z folderu BuiltApp bezpośrednio na swoje urządzenie mobilne. Aplikacja powinna działać na nowszych wersjach systemu Android. iOS nie jest obsługiwany. Działanie na różnych wersjach Androida może być ograniczone. Aplikacja stworzona wyłącznie do prywatnego użytku.
